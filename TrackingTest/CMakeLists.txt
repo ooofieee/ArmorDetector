@@ -6,6 +6,7 @@ link_directories("C:/Users/ofine/opencv/build/x64/vc16/lib")
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/resources)
 
+project(TrackingTest)
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (TrackingTest "src/TrackingTest.cpp"  "src/findLightBar.cpp" "src/findNum.cpp")
